@@ -1,0 +1,71 @@
+/*
+    "Bone": #d7d2cb
+    Font: Garamond Classico SC
+*/
+
+body{
+    background: #d7d2cb;
+}
+
+h1{
+    font-family: EB Garamond, serif;
+}
+
+.social-menu ul{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+.social-menu ul li img{
+    width: 50%;
+    height: 50%;
+    padding: 12.5px 0;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .6s;
+    color: #000;
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #fafafa;
+}
+
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #0077B5;
+}
+
+.social-menu ul li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #e4405f;
+}
+
+
